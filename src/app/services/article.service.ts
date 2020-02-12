@@ -13,7 +13,7 @@ export class ArticleService {
 
 
   getAll(){
-    return this.http.get<any>("http://localhost:8000/api/article");
+    return this.http.get("http://localhost:8000/api/article");
   }
 
 

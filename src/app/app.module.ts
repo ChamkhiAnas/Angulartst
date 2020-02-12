@@ -7,7 +7,10 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ShowComponent } from './components/show/show.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
-import {HttpClientModule} from "@angular/common/http"
+import {HttpClientModule} from "@angular/common/http";
+import { ListArticleComponent } from './components/list-article/list-article.component';
+import { ArticleComponent } from './components/article/article.component';
+import { ListCategoryComponent } from './componenets/list-category/list-category.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import {HttpClientModule} from "@angular/common/http"
     HomeComponent,
     NavbarComponent,
     ShowComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ListArticleComponent,
+    ArticleComponent,
+    ListCategoryComponent
   ],
   imports: [
     BrowserModule,
